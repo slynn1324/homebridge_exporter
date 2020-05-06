@@ -1,0 +1,1 @@
+"""hapclient.model module."""
