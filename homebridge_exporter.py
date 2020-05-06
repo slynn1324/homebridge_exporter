@@ -50,7 +50,7 @@ def clean_name(name):
 
 
 def add_metric(metric_name, accessory_name, service_name, value):
-	metrics.append('homekit_{}{{accessory="{}",service="{}"}} {}'.format(clean_name(metric_name), clean_name(accessory_name), clean_name(service_name), value))
+	metrics.append('homebridge_{}{{accessory="{}",service="{}"}} {}'.format(clean_name(metric_name), clean_name(accessory_name), clean_name(service_name), value))
 
 def get_accessory_name(a):
 

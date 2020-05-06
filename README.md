@@ -4,6 +4,12 @@ A node_exporter textfile collector script to extract information from homebridge
 
 TODO: convert to an typical prometheus exporter
 
+## Setup
+```
+cd hapclient
+pip3 install .
+```
+
 ## Running
 
 ```
