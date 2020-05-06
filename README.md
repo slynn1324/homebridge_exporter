@@ -1,5 +1,9 @@
 # Homekit (Homebridge) Prometheus Textfile Collector
 
+A node_exporter textfile collector script to extract information from homebridge connected devices and make available to prometheus.
+
+TODO: convert to an typical prometheus exporter
+
 ## Running
 
 ```
@@ -9,7 +13,7 @@ homebridge_exporter.py: error: the following arguments are required: --address, 
 ```
 
 ```
-python3 homebridge_exporter.py --address xxx.xxx.xxx.xxx --port 51826 --pin xxx-xx-xxx
+python3 homebridge_exporter.py --address xxx.xxx.xxx.xxx --port 51826 --pin xxx-xx-xxx --output /path/to/homebridge.prom
 ```
 
 ## Depends On
